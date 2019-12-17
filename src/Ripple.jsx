@@ -67,8 +67,7 @@ const Ripple = ({ duration = 850, color = "#fff" }) => {
 
   return (
     <RippleContainer duration={duration} color={color} onMouseDown={addRipple}>
-      {rippleArray &&
-        rippleArray.length > 0 &&
+      {rippleArray.length > 0 &&
         rippleArray.map((ripple, index) => {
           return (
             <span
