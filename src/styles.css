@@ -1,0 +1,13 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+*:focus,
+*:active {
+  outline: 0;
+}
+
+*::-moz-focus-inner {
+  border: 0;
+}
